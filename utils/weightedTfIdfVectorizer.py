@@ -1,3 +1,7 @@
+'''
+Adapted from http://nadbordrozd.github.io/blog/2016/05/20/text-classification-with-word2vec/
+'''
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from collections import defaultdict
 
