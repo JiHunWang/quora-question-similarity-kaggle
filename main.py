@@ -94,7 +94,6 @@ def train(args):
 		print('Epoch {}:\t Acc {}'.format(epoch, acc))
 
 
-
 if __name__ == '__main__':
 	main()
 
