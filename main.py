@@ -93,6 +93,7 @@ def train(args):
 		acc = cur_acc * 100 / total
 		print('Epoch {}:\t Acc {}'.format(epoch, acc))
 
+		
 
 if __name__ == '__main__':
 	main()
