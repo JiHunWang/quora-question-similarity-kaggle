@@ -1,7 +1,7 @@
 import logging
 import os
 import utils
-from utils.download_word2vec import download_word2vec_newspaper
+from utils.downloadWord2vec import download_word2vec_newspaper
 from utils.prepareData import _return_stopword_removed_dataframe, _train_test_split
 from utils.weightedTfIdfVectorizer import TfIdfEmbeddingVectorizer
 from torch.utils.data import DataLoader
